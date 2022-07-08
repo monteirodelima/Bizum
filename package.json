@@ -1,0 +1,48 @@
+{
+  "name": "bizum",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.ts",
+    "build": "sucrase ./src -d ./dist --transforms typescript,imports"
+  },
+  "devDependencies": {
+    "@koa/router": "^11.0.1",
+    "@types/koa": "^2.13.4",
+    "@types/koa__cors": "^3.3.0",
+    "@types/koa__router": "^8.0.11",
+    "@types/koa-bodyparser": "^4.3.7",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "sucrase": "^3.23.0",
+    "typescript": "^4.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/monteirodelima/bizum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/monteirodelima/bizum/issues"
+  },
+  "homepage": "https://gitlab.com/monteirodelima/bizum#readme",
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "redsys-easy": "^4.0.2"
+  }
+}

@@ -1,9 +1,7 @@
 image: node.latest
-pages: 
+pages:
   scripts:
     -echo: "Bizum"
   artifacts:
-  paths:
-    -public
-  only:
-    -master
+  paths: -public
+  only: -master
